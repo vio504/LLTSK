@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pure Parallax Effect</title>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="fixed-title">
+    <h1>RETRO PARALLAX</h1>
+  </div>
+  
+  <div class="container">
+    <div class="parallax-bg layer-0"></div>
+    <div class="parallax-bg layer-1"></div>
+    <div class="parallax-bg layer-2"></div>
+    <div class="parallax-bg layer-3"></div>
+    <div class="parallax-bg layer-4"></div>
+    
+    <div class="parallax-object square-red" data-speed="0.3"></div>
+    <div class="parallax-object circle-blue" data-speed="0.5"></div>
+    <div class="parallax-object triangle-green" data-speed="0.7"></div>
+    <div class="parallax-object diamond-yellow" data-speed="0.2"></div>
+    <div class="parallax-object rect-purple" data-speed="0.9"></div>
+    <div class="parallax-object star-cyan" data-speed="0.4"></div>
+    <div class="parallax-object hex-orange" data-speed="0.6"></div>
+    <div class="parallax-object plus-pink" data-speed="0.8"></div>
+    <div class="parallax-object cross-white" data-speed="0.35"></div>
+    <div class="parallax-object zigzag-lime" data-speed="0.65"></div>
+    
+    <section class="content-section section-1" data-speed="0.1">
+      <h2>LEVEL 1</h2>
+      <p>This section demonstrates parallax scrolling. Notice how each colored shape moves at a different speed as you scroll up and down the page. This creates an illusion of depth and dimension.</p>
+      <p>Click on any colored shape to see it animate!</p>
+    </section>
+    
+    <section class="content-section section-2" data-speed="0.05">
+      <h2>LEVEL 2</h2>
+      <p>Parallax scrolling is a technique where background images move slower than foreground images, creating an illusion of depth and immersion.</p>
+      <p>In this example, not only do the background layers move at different speeds, but each individual object has its own movement rate.</p>
+    </section>
+    
+    <section class="content-section section-3" data-speed="0.15">
+      <h2>LEVEL 3</h2>
+      <p>Keep scrolling to see more parallax effects. Even these text sections move at slightly different speeds relative to each other and the background.</p>
+      <p>The greater the difference in movement speeds, the more pronounced the depth effect appears to the human eye.</p>
+    </section>
+    
+    <section class="content-section section-4" data-speed="0.08">
+      <h2 class="final-title">FINAL LEVEL COMPLETE</h2>
+      <div class="end-stars"></div>
+      <p>Congratulations! You've reached the end of our parallax journey. The cosmic shapes have guided you through multiple dimensions of scrolling.</p>
+      <p>You have witnessed how different elements move at various speeds, creating depth and dimension in a 2D space.</p>
+      <div class="trophy">🏆</div>
+      <button id="restart-btn">PLAY AGAIN</button>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
